@@ -1,0 +1,12 @@
+body {
+	background-color: ghostwhite;
+	font-family:verdana;
+}
+img.displayed {
+	display:block;
+	margin-left:auto;
+	margin-right:auto
+}
+div {
+	padding: 25px;
+}
