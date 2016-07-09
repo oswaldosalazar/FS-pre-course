@@ -1,12 +1,49 @@
 body {
 	background-color: ghostwhite;
-	font-family:verdana;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+
+.box {
+  background-image: url("pics/IMG_4085.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+  font-size: 40px;
+  height: 820px;
+	width: 100%;
+  text-align: center;
+	color: white;
+}
+ p {
+	padding: 25px 15px 15px 20px;
+ }
+
+h2 {
+	padding-left: 15px;
+	font-size: 40px;
+}
+
+h3 {
+	padding-left: 15px;
+}
+
 img.displayed {
 	display:block;
 	margin-left:auto;
-	margin-right:auto
+	margin-right:auto;
 }
 div {
-	padding: 25px;
+	padding: 20px;
+	text-align: center;
+}
+
+.left {
+	float: left;
+	/*clear: left;*/
+	padding: 0 20px 20px 0;
+}
+
+.none {
+	float: none;
+	clear: left;
 }
