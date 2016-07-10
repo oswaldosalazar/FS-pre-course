@@ -15,7 +15,7 @@ body {
 	color: white;
 }
  p {
-	padding: 25px 15px 15px 20px;
+	padding: 10px 15px 0px 25px;
  }
 
 h2 {
@@ -24,7 +24,8 @@ h2 {
 }
 
 h3 {
-	padding-left: 15px;
+	padding-top: 20px;
+	padding-left: 25px;
 }
 
 img.displayed {
@@ -39,11 +40,19 @@ div {
 
 .left {
 	float: left;
-	/*clear: left;*/
-	padding: 0 20px 20px 0;
+	padding: 0px 20px 20px 0px;
 }
 
-.none {
+.clearLeft {
 	float: none;
 	clear: left;
+}
+.right {
+	float: right;
+	padding: 0px 0px 10px 40px;
+}
+
+.clearRight {
+	float: none;
+	clear: right;
 }
